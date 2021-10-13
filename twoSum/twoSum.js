@@ -8,7 +8,6 @@
 //       }
 //     }
 //   }
-
 // }
 
 //APPROACH 2: USING HASH TABLE
@@ -23,5 +22,4 @@ const twoSum = function(nums, target) {
     hash[nums[i]] = i;
   }
 }
-
 module.exports = twoSum;
